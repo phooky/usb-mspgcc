@@ -382,7 +382,7 @@ VOID USB_InitSerialStringDescriptor (VOID)
 //----------------------------------------------------------------------------
 
 #ifndef USB_XT_FREQ_VALUE
-#define USB_XT_FREQ_VALUE 4
+#define USB_XT_FREQ_VALUE 12
 #endif
 
 BYTE USB_enable ()
