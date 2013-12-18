@@ -13,8 +13,8 @@ cc = "msp430-gcc"
 
 #Check if a target mcu was specified
 mcu = ENV['mcu']
-#If no mcu specified'msp430f5529' will be used
-mcu ||= "msp430f5529"
+#If no mcu specified'msp430f5508' will be used
+mcu ||= "msp430f5508"
 
 
 #Setting the FLAGS for compile and link time. If using a different MSP430 be sure to change

@@ -79,7 +79,7 @@ extern "C"
 // Please refer to Data Sheet of the MSP430 device you use
 #define USB_MCLK_FREQ 12000000                // MCLK frequency of MCU, in Hz
 #define USB_PLL_XT        2                  // Defines which XT is used by the PLL (1=XT1, 2=XT2)
-#define USB_XT_FREQ       USBPLL_SETCLK_4_0  // Indicates the freq of the crystal on the oscillator indicated by USB_PLL_XT
+#define USB_XT_FREQ       USBPLL_SETCLK_12_0  // Indicates the freq of the crystal on the oscillator indicated by USB_PLL_XT
 #define USB_DISABLE_XT_SUSPEND 1             // If non-zero, then USB_suspend() will disable the oscillator
                                              // that is designated by USB_PLL_XT; if zero, USB_suspend won't
                                              // affect the oscillator
